@@ -17,7 +17,7 @@ public class ChatClient implements Runnable{
 		System.out.println("Establishing connection");
 		try{
 			socket = new Socket(servername, port);
-			System.out.println("system connected to "+socket);
+			System.out.println("system connected "+socket);
 			start();
 		}catch(Exception e){
 			e.printStackTrace();
